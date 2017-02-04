@@ -1,0 +1,2 @@
+# MadeByUs
+MadeByUs is a making community focused on artistic, DIY, and experimental uses of digital fabrication techniques like 3D printing and laser cutting. Join us as we build our community and discuss the future of the making lab at SPEKTRUM.  What are the possibilities for community-based local manufacturing and how can we support this at SPEKTRUM? Help us build our lab and get us all to the future. Initiated by SPEKTRUM, Michael Ang, and Thomas O'Reilly. http://spektrumberlin.de/communities/madebyus/about.html
