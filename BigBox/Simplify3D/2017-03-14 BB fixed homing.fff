@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="2017-03-14 BB fixed homing" version="2017-03-14 19:09:28" app="S3D-Software 3.1.1">
+<profile name="2017-03-14 BB fixed homing" version="2017-03-14 19:21:23" app="S3D-Software 3.1.1">
   <baseProfile>Plywood</baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>High</printQuality>
@@ -157,7 +157,7 @@
   <baudRateOverride>250000</baudRateOverride>
   <overridePrinterModels>0</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>;BigBox Printer Start Script Begin,,; Start bed heating,M140 S[bed0_temperature],; Extruder pre-heating - do as much heating as possible that doesn't cause ooze,M104 S125,,; Home printer,; First move z-axis down - the bed distance sensor doesn't work properly if the bed is too close,G1 Z5.0,M117 Homing,G28,,; Level bed,M117 Leveling bed,G29,,;Dock,M117 Docking,G1 X95 Y200 F3000,G1 X95 Y235 F3000,,;Heat and wait until we reach the temperatures,M117 Heating extruder,M190 S[bed0_temperature],M109 S[extruder0_temperature] ,,,;Prime Extruder,M117 Priming extruder,T0 	;Select Extruder 0,G92 E0 	;Reset E,G1 E10 F200 	;Extruder 10mm,G92 E0 	;Reset E,,M117 Print Starting.,,;Undock,G1 X105 Y235 F3000,G1 X105 Y200 F3000,,;BigBox Printer Start Script End,</startingGcode>
+  <startingGcode>;BigBox Printer Start Script Begin,,; Start bed heating,M140 S[bed0_temperature],; Extruder pre-heating - do as much heating as possible that doesn't cause ooze,M104 S125,,; Home printer,; First move z-axis down - the bed distance sensor doesn't work properly if the bed is too close,G1 Z5.0,M117 Homing,G28,,; Level bed,;M117 Leveling bed,;G29,,;Dock,M117 Docking,G1 X95 Y200 F3000,G1 X95 Y235 F3000,,;Heat and wait until we reach the temperatures,M117 Heating extruder,M190 S[bed0_temperature],M109 S[extruder0_temperature] ,,,;Prime Extruder,M117 Priming extruder,T0 	;Select Extruder 0,G92 E0 	;Reset E,G1 E10 F200 	;Extruder 10mm,G92 E0 	;Reset E,,M117 Print Starting.,,;Undock,G1 X105 Y235 F3000,G1 X105 Y200 F3000,,;BigBox Printer Start Script End,</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
